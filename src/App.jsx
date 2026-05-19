@@ -35,7 +35,16 @@ const navItems = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const heroTags = ['AI for Science', 'Machine Learning', 'Large Models', 'Data Intelligence'];
+const heroTags = [
+  'AI for Science',
+  'Machine Learning',
+  'Protein Stability Prediction',
+  'Large Model Encoding',
+  'Data Cleaning',
+  'RAG / Agent',
+  'Embodied AI',
+  'World Models',
+];
 
 const profileFacts = [
   ['School', '江南大学'],
@@ -43,23 +52,24 @@ const profileFacts = [
   ['Rank', '6 / 114'],
   ['Track', '至善生 · 伟长班'],
   ['Project', '省级大创'],
-  ['Focus', '酶稳定性预测'],
+  ['Focus', '酶稳定性预测 · 大模型编码'],
 ];
 
 const academicMetrics = [
-  { value: '6/114', label: '专业排名', note: '扎实的数学与计算基础' },
-  { value: '省级', label: '大学生创新创业训练计划', note: 'AI for Science 项目训练' },
-  { value: '至善生', label: '拔尖培养', note: '持续学术成长路径' },
-  { value: '伟长班', label: '荣誉培养', note: '重视科研素养与综合能力' },
-  { value: '一等', label: '综合奖学金', note: '稳定学习投入与执行力' },
+  { value: '6/114', label: '专业排名', note: '信息与计算科学专业基础较稳' },
+  { value: '省级', label: '大学生创新创业训练计划', note: '参与 AI for Science 科研项目' },
+  { value: '至善生', label: '江南大学至善生', note: '持续拓展学术训练与科研视野' },
+  { value: '伟长班', label: '江南大学伟长班', note: '重视数学基础与综合素养' },
+  { value: '一等', label: '综合奖学金', note: '保持稳定学习投入与执行力' },
 ];
 
 const researchKeywords = [
   'Protein Stability Prediction',
+  'Enzyme Stability',
   'Large Model Encoding',
-  'Data Cleaning',
-  'Feature Engineering',
+  'Feature Fusion',
   'Machine Learning',
+  'Data Cleaning',
   'AI for Science',
 ];
 
@@ -74,18 +84,18 @@ const researchSteps = [
 const skillGroups = [
   {
     icon: BrainCircuit,
-    title: 'AI 学习方向',
-    items: ['机器学习', '深度学习', '大模型应用', 'RAG', 'Agent', '具身智能', '世界模型'],
+    title: 'AI & Modeling',
+    items: ['Machine Learning Basics', 'Deep Learning Basics', 'Large Model Applications', 'RAG / Agent Understanding', 'Feature Engineering'],
   },
   {
     icon: Database,
-    title: '数据与实验能力',
-    items: ['数据清洗', '数据预处理', '特征构建', '实验记录', '结果可视化', '文献阅读'],
+    title: 'Research Skills',
+    items: ['Literature Reading', 'Data Cleaning', 'Experiment Organization', 'Result Analysis', 'Scientific Writing'],
   },
   {
     icon: Code2,
-    title: '编程与工具',
-    items: ['Python', '数据库基础', '基础建模', 'Vibe Coding', 'React', 'Tailwind CSS'],
+    title: 'Programming & Tools',
+    items: ['Python', 'PyTorch', 'CUDA / GPU Environment', 'Git / GitHub', 'Data Processing', 'Vibe Coding'],
   },
 ];
 
@@ -93,22 +103,22 @@ const timeline = [
   {
     time: '数学与计算基础',
     title: '打牢信息与计算科学专业基础',
-    text: '系统学习数学分析、高等代数、概率统计、运筹优化、程序设计和数据库基础。',
+    text: '围绕数学基础、计算方法、数据建模和程序设计持续积累，为 AI 与交叉学科研究建立底层支撑。',
   },
   {
-    time: 'AI 入门',
+    time: 'AI 系统学习',
     title: '从机器学习到大模型应用',
-    text: '持续学习机器学习、深度学习、大模型应用、RAG 与 Agent 等技术范式。',
+    text: '正在系统学习机器学习、深度学习、大模型应用、RAG、Agent 与 Vibe Coding，并尝试与专业学习结合。',
   },
   {
     time: '科研训练',
     title: '进入 AI for Science 项目实践',
-    text: '在省级大创项目中参与数据清洗、特征构建、模型训练、实验记录与结果分析。',
+    text: '在省级大创项目中围绕酶稳定性预测参与资料整理、数据清洗、实验组织、特征构建与结果分析。',
   },
   {
     time: '持续探索',
     title: '面向交叉研究继续积累',
-    text: '关注计算生物学、数据智能、具身智能、世界模型和多模态学习等方向。',
+    text: '持续关注大模型编码、生物序列建模、具身智能、世界模型和 AI for Science 等方向，希望逐步建立完整能力链条。',
   },
 ];
 
@@ -116,22 +126,24 @@ const honors = [
   '江南大学一等综合奖学金',
   '校级优秀学生干部',
   '无锡市马拉松优秀志愿者',
+  '志愿服务时长约 30 小时',
   '校级排球比赛团队第三名',
   '校级啦啦操比赛第五名',
+  '多次数学建模竞赛参赛经历',
 ];
 
 const practices = [
   {
     title: '数学建模实践',
-    text: '多次参加数学建模类竞赛，积累问题抽象、模型构建、数据分析、文献检索与论文式表达经验。',
+    text: '多次参与数学建模竞赛训练与实践，虽然暂未获奖，但在问题抽象、数据分析、模型构建和团队协作方面积累了经验。',
   },
   {
     title: '学生工作与协作',
-    text: '曾获校级优秀学生干部，具备组织协调、沟通协作和责任意识。',
+    text: '曾获校级优秀学生干部，在学生工作中持续训练组织协调、沟通协作和责任意识。',
   },
   {
     title: '志愿服务与综合发展',
-    text: '累计志愿服务约 30 小时，获无锡市马拉松优秀志愿者称号，也参与排球、啦啦操等团队活动。',
+    text: '累计志愿服务约 30 小时，获无锡市马拉松优秀志愿者称号，也积极参与排球、啦啦操等文体活动。',
   },
 ];
 
@@ -205,7 +217,7 @@ function Hero() {
             Exploring AI for Science, from Data to Models.
           </p>
           <p className="mt-4 max-w-2xl text-base leading-8 text-muted sm:text-lg">
-            关注人工智能、机器学习、大模型应用与计算生物学交叉方向。希望在真实科研训练中持续提升问题抽象、模型设计、实验迭代与学术表达能力。
+            我正在以数学基础、数据建模与人工智能方法为起点，探索 AI 在科学问题中的应用。当前参与省级大创项目，围绕酶稳定性预测开展数据清洗、特征编码与模型融合相关研究。
           </p>
           <div className="mt-7 flex flex-wrap gap-2">
             {heroTags.map((tag) => (
@@ -236,7 +248,7 @@ function Hero() {
               </p>
               <h2 className="mt-3 text-2xl font-bold text-ink">{profile.role}</h2>
               <p className="mt-3 max-w-md text-sm leading-7 text-muted">
-                以省级大创项目为核心，将数学与计算基础、数据处理能力和 AI 应用学习连接到 AI for Science 的科研实践中。
+                来自江南大学信息与计算科学专业，关注机器学习、大模型编码、RAG、Agent、具身智能与世界模型。对我而言，AI 不只是工具，更是一种连接数据、模型与真实科学问题的方法。
               </p>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {profileFacts.map(([label, value]) => (
@@ -271,7 +283,7 @@ function About() {
               <div>
                 <h3 className="text-xl font-bold text-ink">个人简介</h3>
                 <p className="mt-4 leading-8 text-muted">
-                  我是江南大学信息与计算科学专业本科生，具备较扎实的数学与计算基础，重视从理论学习到实验验证的完整训练。当前主要关注人工智能、机器学习与计算生物学交叉方向，希望在研究生阶段进一步提升科研问题凝练、模型设计与论文写作能力。
+                  我目前就读于江南大学信息与计算科学专业，专业排名 6/114，入选江南大学至善生与伟长班。专业学习以数学基础、计算方法和数据建模为核心，同时也在主动拓展人工智能方向的学习，包括机器学习、深度学习、大模型应用、RAG、Agent、具身智能与世界模型等内容。
                 </p>
               </div>
             </div>
@@ -281,14 +293,14 @@ function About() {
               <Target size={22} className="text-cyan" />
               <div>
                 <h3>研究兴趣</h3>
-                <p>AI for Science、数据智能、具身智能、世界模型、多模态学习。</p>
+                <p>相比于只停留在工具使用层面，我更希望理解 AI 方法背后的建模思想，尤其关注 AI for Science 中的大模型编码、结构信息融合与生物序列建模问题。</p>
               </div>
             </div>
             <div className="panel compact-panel">
               <Network size={22} className="text-cyan" />
               <div>
                 <h3>成长特质</h3>
-                <p>主动阅读技术资料、复现实验流程，并根据实验反馈持续修正方案。</p>
+                <p>正在系统学习人工智能相关技术，并尝试将其与专业学习和科研项目结合，逐步建立从数据处理、模型训练到科研问题建模的能力链条。</p>
               </div>
             </div>
           </div>
@@ -314,7 +326,7 @@ function Education() {
               </span>
               <div>
                 <h3 className="text-2xl font-bold text-ink">江南大学</h3>
-                <p className="mt-1 text-muted">信息与计算科学 · 本科二年级</p>
+                <p className="mt-1 text-muted">信息与计算科学 · 本科在读 · 专业学习以数学基础、计算方法、数据建模和程序设计为核心</p>
               </div>
             </div>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -359,7 +371,7 @@ function Research() {
                 面向酶稳定性预测的融合大模型编码算法研究
               </h3>
               <p className="mt-5 leading-8 text-muted">
-                项目围绕酶稳定性预测任务，探索蛋白质序列大模型表征、结构信息与深度学习模型的融合编码方法。本人参与数据清洗、特征构建、模型训练、实验记录与结果对比分析，在项目中逐步形成从文献阅读、问题抽象、实验设计到结果分析的科研意识。
+                酶稳定性是蛋白质工程和工业酶设计中的重要问题。项目尝试结合蛋白质序列大模型的表征能力与结构图信息，将酶序列、结构关系和深度学习模型结合起来，探索面向稳定性预测的融合编码方法。
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {researchKeywords.map((keyword) => (
@@ -373,19 +385,19 @@ function Research() {
             <div className="research-detail-grid">
               <div className="detail-card">
                 <h4>研究背景</h4>
-                <p>蛋白质/酶稳定性预测是 AI for Science 中具有实际意义的交叉问题，需要结合序列表示、结构信息与建模方法。</p>
+                <p>如何利用序列信息、结构信息和大模型编码能力，构建更有效的稳定性预测方法，是本项目关注的核心问题。</p>
               </div>
               <div className="detail-card">
-                <h4>个人贡献</h4>
-                <p>参与数据清洗、特征构建、模型训练、实验记录和结果对比分析，承担持续推进与整理工作。</p>
+                <h4>我的工作</h4>
+                <p>参与项目资料整理、数据清洗与实验数据组织，学习蛋白质序列编码、结构特征、图表示和模型训练流程。</p>
               </div>
               <div className="detail-card">
-                <h4>当前进展</h4>
-                <p>围绕大模型编码能力与稳定性预测任务进行初步应用探索，持续积累实验迭代经验。</p>
+                <h4>实践提升</h4>
+                <p>参与特征构建、模型实验和结果分析，关注如何将大模型编码特征与下游预测任务结合。</p>
               </div>
               <div className="detail-card">
-                <h4>科研收获</h4>
-                <p>训练了从文献阅读到实验验证的完整意识，为后续学术研究打下可延展的基础。</p>
+                <h4>后续计划</h4>
+                <p>希望进一步完善数据处理流程，比较不同编码方式和模型结构对预测性能的影响，并总结可解释的规律。</p>
               </div>
             </div>
           </div>
@@ -504,7 +516,7 @@ function Contact() {
           </p>
           <h2 className="text-3xl font-bold text-white sm:text-4xl">欢迎交流科研训练与 AI 学习</h2>
           <p className="mt-5 max-w-2xl leading-8 text-slate-300">
-            欢迎交流 AI for Science、机器学习、计算生物学、RAG / Agent 学习路线，以及本科阶段科研项目实践。
+            欢迎交流 AI for Science、酶稳定性预测、大模型编码、机器学习、RAG / Agent 学习路线，以及本科阶段科研项目实践。
           </p>
         </div>
         <div className="grid gap-3">
